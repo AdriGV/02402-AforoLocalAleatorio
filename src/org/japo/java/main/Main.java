@@ -22,11 +22,13 @@ import java.util.Random;
  * @author AdrianGV adrian.gimeno.alum@iescamp.es
  */
 public final class Main {
+
     public static final Random RND = new Random();
-    public static void main (String[] args){
-        
+
+    public static void main(String[] args) {
+
         int aforo;
-         aforo = RND.nextInt(100 - 1 + 1) + 1;
+        aforo = RND.nextInt(100 - 1 + 1) + 1;
         System.out.printf("Aforo actual del local ....: %d%n", aforo);
     }
 }
