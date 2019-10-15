@@ -26,9 +26,13 @@ public final class Main {
     public static final Random RND = new Random();
 
     public static void main(String[] args) {
+        
+//        final int AFORO_MIN= 0
+//        final int AFORO_MAX = 100
 
         int aforo;
-        aforo = RND.nextInt(100 - 1 + 1) + 1;
+        aforo = RND.nextInt(100 - 0 + 1) + 1;
+//        aforo = RND.nextint(AFORO_MAX - AFORO_MIN + 1) + AFORO_MIN;
         System.out.printf("Aforo actual del local ....: %d%n", aforo);
     }
 }
